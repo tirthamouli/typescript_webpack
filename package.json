@@ -1,0 +1,31 @@
+{
+  "name": "typescript_webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "",
+  "license": "MIT",
+  "description": "A webpack typescript workflow",
+  "author": "tirthamoulib <btirthamouli@gmail.com>",
+  "scripts": {
+    "tsc": "tsc",
+    "watch": "tsc --watch",
+    "serve": "webpack-dev-server",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
